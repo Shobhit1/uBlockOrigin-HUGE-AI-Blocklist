@@ -14,6 +14,79 @@
 # Have a happy day!
 
 
+# Custom AI Blocklist (Pi-hole supplement)
+# Deduplicated against laylavish/uBlockOrigin-HUGE-AI-Blocklist noai_hosts.txt
+ 
+# Google Gemini & AI
+0.0.0.0 gemini.google.com
+0.0.0.0 bard.google.com
+0.0.0.0 aistudio.google.com
+0.0.0.0 generativelanguage.googleapis.com
+0.0.0.0 alkalimakersuite-pa.clients6.google.com
+0.0.0.0 ai.google.dev
+0.0.0.0 deepmind.google
+0.0.0.0 deepmind.com
+0.0.0.0 notebooklm.google.com
+0.0.0.0 notebooklm.google
+0.0.0.0 labs.google
+0.0.0.0 makersuite.google.com
+0.0.0.0 generativeai.google
+ 
+# Microsoft Copilot (copilot.microsoft.com already in laylavish)
+0.0.0.0 copilot.cloud.microsoft
+0.0.0.0 sydney.bing.com
+0.0.0.0 designer.microsoft.com
+ 
+# Grok / xAI
+0.0.0.0 grok.com
+0.0.0.0 x.ai
+0.0.0.0 console.x.ai
+0.0.0.0 api.x.ai
+ 
+# Meta AI (meta.ai already in laylavish)
+0.0.0.0 llama.meta.com
+0.0.0.0 ai.meta.com
+ 
+# Cohere (cohere.io already in laylavish)
+0.0.0.0 cohere.com
+0.0.0.0 coral.cohere.com
+0.0.0.0 dashboard.cohere.com
+ 
+# Hugging Face (huggingface.co already in laylavish)
+0.0.0.0 api-inference.huggingface.co
+ 
+# Groq
+0.0.0.0 groq.com
+0.0.0.0 console.groq.com
+ 
+# Together AI
+0.0.0.0 together.ai
+0.0.0.0 api.together.xyz
+ 
+# DeepSeek (deepseek.com already in laylavish)
+0.0.0.0 chat.deepseek.com
+ 
+# Inflection / Pi
+0.0.0.0 pi.ai
+0.0.0.0 inflection.ai
+ 
+# Midjourney CDN (midjourney.com already in laylavish)
+0.0.0.0 cdn.midjourney.com
+ 
+# Stability AI API (stability.ai already in laylavish)
+0.0.0.0 platform.stability.ai
+0.0.0.0 api.stability.ai
+ 
+# AI coding tools
+0.0.0.0 cursor.com
+0.0.0.0 cursor.sh
+0.0.0.0 codeium.com
+0.0.0.0 supermaven.com
+0.0.0.0 tabnine.com
+ 
+# Other
+0.0.0.0 grammarly.ai
+
 # [.ai sites]
 0.0.0.0 forkful.ai
 0.0.0.0 cgdream.ai
@@ -199,7 +272,6 @@
 0.0.0.0 hunts.ai
 0.0.0.0 liveapps.ai
 0.0.0.0 powerusers.ai
-0.0.0.0 claude.ai
 0.0.0.0 covers.ai
 0.0.0.0 artemisia.ai
 0.0.0.0 facet.ai
